@@ -1,0 +1,27 @@
+.bola{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+body{
+    background-color: rgb(209, 245, 233);
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.score{
+    width: 150px;
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 1.3rem;
+}
